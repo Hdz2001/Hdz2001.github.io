@@ -1,3 +1,10 @@
+<html>
+<head>
+  <title>Nam Hung Tran</title>
+  <link rel="icon" href="https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/website_icon.png?raw=true" type="image/x-icon">
+</head>
+<body>
+	
 ## ABOUT ME
 - **📞** +1 204-558-9552
 - **📧** trannamhung2001@gmail.com
@@ -86,3 +93,6 @@
 3. **Shopping Assist App**
    - Build an app for optimal organizing and structuring grocery shopping lists.
    - Language: Java, SQLite, MySQL
+
+</body>
+</html>
