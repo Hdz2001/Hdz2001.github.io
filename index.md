@@ -1,6 +1,5 @@
 ---
 title: Nam Hung Tran
-favicon: "https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/test.ico?raw=true"
 ---
 	
 ## ABOUT ME
