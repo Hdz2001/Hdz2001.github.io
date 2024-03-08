@@ -2,5 +2,5 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme 
 
-title: "Nam Hung Tran's CV"
-favicon: "images/website_icon.png"
+title: "Nam Hung Tran"
+favicon: "https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/website_icon.png?raw=true"
