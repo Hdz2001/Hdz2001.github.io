@@ -143,10 +143,3 @@ Here are the step-by-step instruction of hosting your resume using GitHub pages:
       1. Make sure your GitHub repository name is `[YourUserName].github.io`
       2. Make sure the GitHub website url is `https://[YourUserName].github.io/`
       3. Make sure your resume file name is `index.md`
-
-3. **What is Git and Version Control and why Version Control is important?**
-- **What is Git?**
-  - Git is a distributed version control system designed to track changes in files, enabling collaboration among developers working on software projects.
-- **What is Version Control and why it is important?**
-  - Version control is a mechanism that tracks modifications to a file or group of files across time, enabling you to retrieve specific versions later on.
-  - It's important to understand and correctly apply version control to keep track of your work and know what changes have been made. Modern websites like GitHub has version control and many different things you can do with it. 
