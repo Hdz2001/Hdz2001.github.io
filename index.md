@@ -1,8 +1,3 @@
----
-title: "Nam Hung Tran's CV"
-favicon: "icon.png"
----
-
 ## ABOUT ME
 - **📞** +1 204-558-9552
 - **📧** trannamhung2001@gmail.com
