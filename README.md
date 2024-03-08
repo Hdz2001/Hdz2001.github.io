@@ -1,27 +1,31 @@
 # Applying Etter's Modern Technical Writing principles to host an online resume and README
 
 ## Table of Content
-- [Applying Etter's Modern Technical Writing principles to host an online resume and README](#applying-etters-modern-technical-writing-principles-to-host-an-online-resume-and-readme)
-  - [Table of Content](#table-of-content)
-  - [Purpose](#purpose)
-  - [Prerequisites](#prerequisites)
-  - [Instructions](#instructions)
-  - [More Resources](#more-resources)
-  - [Author and Acknowledgements](#author-and-acknowledgements)
-  - [FAQ](#faq)
+- [Purpose](#purpose)
+- [Prerequisites](#prerequisites)
+- [Instructions](#instructions)
+- [More Resources](#more-resources)
+- [Author and Acknowledgements](#author-and-acknowledgements)
+- [FAQ](#faq)
 
 ## Purpose 
 
-- **The purpose of this document** is to help users understand about how to host documents on a public repository, such as GitHub Pages or Codeberg Pages. In this case, the document will shows how to create your resume and host it on your website utilizing the techniques outlined in Andrew Etter's book, Modern Technical Writing. 
+- **The purpose of this document** is to help users understand about how to host documents on a public repository, such as GitHub Pages. In this case, the document will shows how to create your resume and host it on your website utilizing the techniques outlined in Andrew Etter's book, Modern Technical Writing. 
 - **Essential tools:** Markdown, a Markdown editor, a static site generator (such as Jekyll), and either GitHub Pages or Codeberg Pages for hosting.
-  - **The tutorial will perform using Jekyll and Github Pages hosting.**
+  - **The tutorial will perform using Markdown, Jekyll and Github Pages hosting.**
 
 
 ## Prerequisites
 - **Required:**
   - Have a GitHub account, with GitHub account, you can have access to GitHub pages for hosting.
     - If you don't have one, you will need to [create a GitHub account](#more-resources).
-  - A general understanding of Git, Git version and Markdown. 
+  - A general understanding of Git, Version Control and Markdown. 
+    - **What is Git and Version Control and why understanding them important?** 
+        - Git is a common distributed version control system designed to track changes in files, enabling collaboration among developers working on software projects.
+        - Version control is one of the core principles from Modern Technical Writing. It is a mechanism that tracks modifications to a file or group of files across time, enabling you to keep track of your changes and retrieve specific versions later on. 
+    - **What is Markdown and why understanding it important?**
+        - Markdown is one of Lightweight Markup mentioned in Modern Technical Writing, along with reStructuredText, AsciiDoc and LaTeX. It is the most commonly utilized lightweight markup language globally and allows users to easily add formatting elements such as headers, lists, bold and italic text, links, and images using simple and intuitive syntax. Markdown is often used for writing content for websites, blogs, documentation, and README files on platforms like GitHub, Reddit, and Stack Overflow. It provides a convenient way to write structured content without the need for complex HTML tags or formatting tools.
+
 - **Recommended**:
   - Markdown editor: 
     - A Markdown editor will help enhancing your work speed and allow more customization to your Markdown file.
@@ -29,32 +33,75 @@
 
 ## Instructions
 Here are the step-by-step instruction of hosting your resume using GitHub pages: 
+
 1. **Create your repository for hosting:**
    1. After succesfully created your GitHub account, login to your account.
    2. You can either: 
-      1. Click the "+" button and choose "New Repository" **INSERT IMAGE**
-      2. Click the green "New" button **INSERT IMAGE**
-   3. After that, you will be redirected to the page below. Enter the name of the repository `[YourUserName].github.io` into the input box then click green "Create Repository" button. **INSERT IMAGE** 
+      1. Click the "+" button and choose "New Repository" 
+      
+            ![CreateNewRep_Method1](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/CreateNewRep_Method1.png?raw=true) 
+
+      2. Click the green "New" button
+      
+            ![CreateNewRep_Method2](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/CreateNewRep_Method2.png?raw=true) 
+
+   3. After that, you will be redirected to the page below. Enter the name of the repository `[YourUserName].github.io` into the input box then click green "Create Repository" button.    
+
+        ![NameYourRep](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/NameYourRep.png?raw=true)  
+
 2. **Upload your resume to your repository:**
-   1. Click the "uploading an existing file". This will bring you to another window. **INSERT IMAGE**
+   1. Click the "uploading an existing file". This will bring you to another window. 
+        
+        ![UploadExistingFile](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/UploadExistingFile.png?raw=true)
+
    2. Add your file into the box. 
       1. I recommend naming the file as `index.md` on your computer before adding it, because the website will only work if your resume is named `index.md`. 
-      2. Moreover, you can write your commit message and extended description to keep track of what changes have been done to the repository. **INSERT IMAGE**
+      2. Moreover, you can write your commit message and extended description to keep track of what changes have been done to the repository. 
+
+            ![UploadExistingFilePopUp](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/UploadExistingFilePopUp.png?raw=true)
+
    3. In case you didn't change your resume file name in the step above, you can change its name by doing: 
-      1. Click your resume file. **INSERT IMAGE**
-      2. Click the pencil icon to edit the file. **INSERT IMAGE**
-      3. Rename the file using the input box to `index.md`. **INSERT IMAGE**
-      4. Click the "Commit change..." button. **INSERT IMAGE**
-      5. Click the "Commit change" button again. Optionally, enter your commit message. **INSERT IMAGE**
+      1. Click your resume file. 
+      
+            ![ClickOnFileResume](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/ClickOnFileResume.png?raw=true)
+
+      2. Click the pencil icon to edit the file. 
+      
+            ![ClickOnFileResume_PencilIcon](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/ClickOnFileResume_PencilIcon.png?raw=true)
+
+      3. Rename the file using the input box to `index.md`. 
+
+      4. Click the "Commit change..." button. 
+      
+            ![RenameAndCommitResumeFile](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/RenameAndCommitResumeFile.png?raw=true)
+
+      5. Click the "Commit change" button again. Optionally, enter your commit message. 
+      
+            ![CommitAgainChangeFileName](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/CommitAgainChangeFileName.png?raw=true)
+
    4. After that, your resume will now be hosted on the website: `[YourUserName].github.io`. Give it some time to finish deploying your website. 
+
 3. **Customize your website theme using Jekyll:**
-   1. Create new file on your repository by clicking "Add file" then "Create new file". **INSERT IMAGE**
+   1. Create new file on your repository by clicking "Add file" then "Create new file". 
+   
+        ![CreateNewFileConfig](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/CreateNewFileConfig.png?raw=true)
+
    2. Name your file `_config.yml` in the input box. 
+
    3. Add into "Enter file contents here" the lines: `remote_theme: pages-themes/cayman@v0.2.0` and `plugins:- jekyll-remote-theme`
       1. This will be the simpliest way to do it. However, you can use other theme and more customization as well. Have a look at [More Resources](#more-resources) section. 
-   4. Click "Commit changes..." button. **INSERT IMAGE**
-   5. Click the "Commit change" button again. Optionally, enter your commit message. **INSERT IMAGE** 
-4. **After that, your website will be finished and will look like this:** **INSERT IMAGE** 
+
+   4. Click "Commit changes..." button. 
+
+        ![CustomizeConfigFile](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/CustomizeConfigFile.png?raw=true)
+
+   5. Click the "Commit change" button again. Optionally, enter your commit message. 
+
+        ![CreateConfigFileCommit](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/CreateConfigFileCommit.png?raw=true)
+
+4. **After that, your website will be finished and will look like this:** 
+
+![WebPage.gif](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/WebPage.gif?raw=true)
 
 ## More Resources 
 - [Modern Technical Writing by Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
@@ -73,7 +120,7 @@ Here are the step-by-step instruction of hosting your resume using GitHub pages:
  
 ## Author and Acknowledgements
 - **Author:** Hung Tran
-- **Edited and reviewed by:** Ying Liang, Kaiden
+- **Edited and reviewed by:** Ying Liang, Kaiden Bereznycky
 - **Jekyll Theme:** Cayman
 - I want to thank my COMP3040 instructor, Stewart Wilcox, for giving us the template for this README and giving us clear instructions.
 
@@ -87,7 +134,11 @@ Here are the step-by-step instruction of hosting your resume using GitHub pages:
   - Moreover, Markdown files work well with version control systems like Git, allowing users to track changes and collaborate more effectively on documents.
 
 2. **Why is my resume not showing up?**
-   1. After uploading all your files, give GitHub some time to deploy your page. Your GitHub repository will look as followed if it's in process of deploying and when it's done. **INSERT IMAGE**
+   1. After uploading all your files, give GitHub some time to deploy your page. Your GitHub repository will look as followed if it's in process of deploying and when it's done. 
+
+        ![PageDeploying](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/PageDeploying.png?raw=true) 
+        
+        ![PageDeployDone](https://github.com/Hdz2001/Hdz2001.github.io/blob/main/image/PageDeployDone.png?raw=true)
    2. If the page still doesn't show after deploying, double-check these values: 
       1. Make sure your GitHub repository name is `[YourUserName].github.io`
       2. Make sure the GitHub website url is `https://[YourUserName].github.io/`
